@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
     private Double operand1;
     private Double operand2;
+    private double ass;
     private String pendingOperation = "=";
 
     @Override
