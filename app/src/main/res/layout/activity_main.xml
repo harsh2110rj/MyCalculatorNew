@@ -8,7 +8,7 @@
 
     <EditText
         android:id="@+id/result"
-        android:layout_width="234dp"
+        android:layout_width="235dp"
         android:layout_height="49dp"
         android:ems="10"
         android:inputType="numberSigned"
