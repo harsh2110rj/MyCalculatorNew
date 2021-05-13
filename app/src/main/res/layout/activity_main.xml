@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/andro
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -8,7 +8,7 @@
 
     <EditText
         android:id="@+id/result"
-        android:layout_width="234dp"
+        android:layout_width="235dp"
         android:layout_height="49dp"
         android:ems="10"
         android:inputType="numberSigned"
@@ -70,13 +70,7 @@
         app:layout_constraintBaseline_toBaselineOf="@+id/button04"
         app:layout_constraintStart_toEndOf="@+id/button04" />
 
-    <Button
-        android:id="@+id/minus"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="-"
-        app:layout_constraintBaseline_toBaselineOf="@+id/button06"
-        app:layout_constraintStart_toEndOf="@+id/button06" />
+   
 
     <Button
         android:id="@+id/button02"
